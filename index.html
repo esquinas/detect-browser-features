@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+alert("YOUR BROWSER SUPPORTS:\n" +
+    "fetch: \t" + ("fetch" in window) + "\n" +
+    "Intl: \t" + ("Intl" in window) + "\n" +
+    "JSON: \t" + ("JSON" in window) + "\n" +
+    "URL: \t" + ("URL" in window) + "\n" +
+    "URLSearchParams: " + ("URLSearchParams" in window) + "\n" +
+    "Array.isArray: " + ("isArray" in Array) + "\n" +
+    "[].fill: \t" + ("fill" in Array.prototype) + "\n" +
+    "[].forEach: \t" + ("forEach" in Array.prototype) + "\n" +
+    "[].includes: " + ("includes" in Array.prototype) + "\n" +
+    "''.startsWith: " + ("startsWith" in String.prototype) + "\n" +
+    "''.endsWith: " + ("endsWith" in String.prototype) + "\n" +
+    "Object.assign:" + ("assign" in Object) + "\n" +
+    "Object.create:" + ("create" in Object) + "\n" +
+    "Object.getOwnPropertyDescriptors:" + ("getOwnPropertyDescriptors" in Object) + "\n" +
+    "Object.keys: " + ("keys" in Object) + "\n" +
+    "elem.appendChild: " + ("Element" in window && "appendChild" in Element.prototype) + "\n" +
+    "elem.classList: " + ("Element" in window && "classList" in Element.prototype) + "\n" +
+    "elem.classList.add: " + ("DOMTokenList" in window && "add" in DOMTokenList.prototype) + "\n" +
+    "elem.classList.remove: " + ("DOMTokenList" in window && "remove" in DOMTokenList.prototype) + "\n" +
+    "elem.dataset \t: " + ("HTMLElement" in window && "dataset" in HTMLElement.prototype) + "\n" +
+    "Event hashchange: " + ("onhashchange" in window) + "\n" +
+    "node.cloneNode: " + ("Node" in window && "cloneNode" in Node.prototype) + "\n" +
+    "nodeList.forEach: " + ("NodeList" in window && "forEach" in NodeList.prototype) + "\n");
+</script>
+</body>
+</html>
